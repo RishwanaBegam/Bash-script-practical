@@ -10,3 +10,32 @@
 <br>step-8 give chmod -x sample.sh and execute command "./sample.sh"<br/>
 <br>step-9 check the output in log file.<br/>
 <br>#Great! You did it !!!!!!<br/>
+
+# Useful-Commands
+mkdir<br/>
+touch<br/>
+man  (man ls  -> it will provide deatil or decoumentation of man command)
+vi/vim  ESC->INSERT->TYPE->ESC->:wq! to save it.
+ls 
+ls-ltr
+cat
+chmod
+pwd
+ps -ef | grep
+file.sh grep 2
+set -x # debug mode
+set -e # exit the script when there is an error
+set -o # pipefail
+awk  - pattern scanning and proccessing 
+grep Display node-health.sh | awk -F" " '{print$4}'
+ps -ef | grep Display node-health.sh | awk -F" " '{print$4}' 
+cat logfile | grep error
+curl & wget
+sudo find / -name sample-rish
+if else ..fi
+for
+trap trapping signals
+curl https://raw.githubusercontent.com/RishwanaBegam/sandbox/master/Log/dummyerror.log | grep ERROR
+
+
+
