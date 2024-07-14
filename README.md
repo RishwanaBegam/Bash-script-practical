@@ -1,5 +1,5 @@
 # Bash-script-practical
-Step-1 create an EC2 instances
+<br>Step-1 create an EC2 instances<br/> 
 step-2 create a key pair of .pem
 step-3 login into the instance with the instance ip address
 ssh -i awskey.pem ubuntu@ipaddress
