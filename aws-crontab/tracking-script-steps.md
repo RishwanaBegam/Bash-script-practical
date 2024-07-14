@@ -19,4 +19,4 @@ step-8 give chmod -x sample.sh and execute command "./sample.sh"
 
 step-9 check the output in log file.
 
-#Great! You did it !!!!!!
+# Great! You did it !!!!!!
