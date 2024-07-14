@@ -1,4 +1,4 @@
-#crontab-steps
+# crontab-steps
 <br>step-1 create a simple .sh file.</br>
 <br>step-2 add this echo statment in .sh file to print the timestamp in the output</br>
 <br>echo "Cron job ran at $(date)" >> /path/to/your/testCron.log</br>
