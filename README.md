@@ -11,31 +11,33 @@
 <br>step-9 check the output in log file.<br/>
 <br>#Great! You did it !!!!!!<br/>
 
+________________________________________________________________________________________________________________________________________________________________________________________________________________</br>
+
 # Useful-Commands
 mkdir<br/>
 touch<br/>
-man  (man ls  -> it will provide deatil or decoumentation of man command)
-vi/vim  ESC->INSERT->TYPE->ESC->:wq! to save it.
-ls 
-ls-ltr
-cat
-chmod
-pwd
-ps -ef | grep
-file.sh grep 2
-set -x # debug mode
-set -e # exit the script when there is an error
-set -o # pipefail
-awk  - pattern scanning and proccessing 
-grep Display node-health.sh | awk -F" " '{print$4}'
-ps -ef | grep Display node-health.sh | awk -F" " '{print$4}' 
-cat logfile | grep error
-curl & wget
-sudo find / -name sample-rish
-if else ..fi
-for
-trap trapping signals
-curl https://raw.githubusercontent.com/RishwanaBegam/sandbox/master/Log/dummyerror.log | grep ERROR
-
+man  (man ls  -> it will provide deatil or decoumentation of man command) <br/>
+vi/vim  ESC->INSERT->TYPE->ESC->:wq! to save it. <br/>
+ls <br/>
+ls-ltr<br/>
+cat<br/>
+chmod<br/>
+pwd<br/>
+ps -ef | grep<br/>
+file.sh grep 2 <br/>
+set -x # debug mode <br/>
+set -e # exit the script when there is an error<br/>
+set -o # pipefail<br/>
+awk  - pattern scanning and proccessing <br/>
+grep Display node-health.sh | awk -F" " '{print$4}'<br/>
+ps -ef | grep Display node-health.sh | awk -F" " '{print$4}' <br/>
+cat logfile | grep error<br/>
+curl & wget<br/>
+sudo find / -name sample-rish<br/>
+if else ..fi<br/>
+for<br/>
+trap trapping signals<br/>
+curl https://raw.githubusercontent.com/RishwanaBegam/sandbox/master/Log/dummyerror.log | grep ERROR<br/>
+crontab -e<br/>
 
 
